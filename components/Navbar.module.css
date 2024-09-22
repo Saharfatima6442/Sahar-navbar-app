@@ -1,0 +1,45 @@
+/* components/Navbar.module.css */
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .navList {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navList li {
+    margin: 0 1rem;
+  }
+  
+  .navList a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .cvButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .cvButton:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .navList {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
