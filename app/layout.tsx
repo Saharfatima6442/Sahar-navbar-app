@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 
 export const metadata = {
   title: 'My Website',
-  description: 'Welcome to my website',
+  description: 'Welcome to My website',
 };
 
 const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
